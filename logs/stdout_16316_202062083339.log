@@ -1,0 +1,28 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Orfeus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Projects\GoogleDrive\Programming\C#\Telegram\ShopAsp\TelegramShopAsp
+Now listening on: http://127.0.0.1:47541
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:17627/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44392/values/checkConnectionToDB  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 22.9046ms 200 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "CheckConnectionToDB", controller = "Values"}. Executing controller action with signature System.String CheckConnectionToDB(System.String) on controller TelegramShopAsp.Controllers.ValuesController (TelegramShopAsp).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 785.7219ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp) in 809.125ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 947.1222ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44392/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.9613ms 404 

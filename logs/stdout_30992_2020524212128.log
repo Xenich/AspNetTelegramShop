@@ -1,0 +1,37 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Orfeus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Projects\GoogleDrive\Programming\C#\Telegram\ShopAsp\TelegramShopAsp
+Now listening on: http://127.0.0.1:46179
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:17627/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44392/values/checkConnectionToDB  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 23.7271ms 200 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "CheckConnectionToDB", controller = "Values"}. Executing controller action with signature System.String CheckConnectionToDB(System.String) on controller TelegramShopAsp.Controllers.ValuesController (TelegramShopAsp).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp) - Validation state: Valid
+warn: Microsoft.EntityFrameworkCore.Model.Validation[20601]
+      The 'bool' property 'isActive' on entity type 'Buyers' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+warn: Microsoft.EntityFrameworkCore.Model.Validation[20601]
+      The 'bool' property 'isActive' on entity type 'SellerGoods' is configured with a database-generated default. This default will always be used for inserts when the property has the value 'false', since this is the CLR default for the 'bool' type. Consider using the nullable 'bool?' type instead so that the default will only be used for inserts when the property value is 'null'.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.14-servicing-32113 initialized 'DB_A566BC_xenichContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (186ms) [Parameters=[@ret='?' (Direction = Output) (DbType = Int32), @value='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      EXEC	 [dbo].[prCheckConnectionToDB] @value, @ret OUTPUT
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1333.5174ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp) in 1449.5735ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1619.8816ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44392/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.8952ms 404 

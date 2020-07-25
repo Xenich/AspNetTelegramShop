@@ -1,0 +1,6 @@
+
+Unhandled Exception: System.Collections.Generic.KeyNotFoundException: The given key 'TelegramShopAsp.StateDelegate' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at TelegramShopAsp.Behavior.Generate_UIDToState_Dic_Buyer(Dictionary`2 UID_stateDic) in D:\Projects\GoogleDrive\Programming\C#\Telegram\ShopAsp\TelegramShopAsp\Behaviors\Behavior.cs:line 161
+   at TelegramShopAsp.Behavior.Init() in D:\Projects\GoogleDrive\Programming\C#\Telegram\ShopAsp\TelegramShopAsp\Behaviors\Behavior.cs:line 32
+   at TelegramShopAsp.Program.Main(String[] args) in D:\Projects\GoogleDrive\Programming\C#\Telegram\ShopAsp\TelegramShopAsp\Program.cs:line 18

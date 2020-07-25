@@ -1,0 +1,58 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Orfeus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Projects\GoogleDrive\Programming\C#\Telegram\ShopAsp\TelegramShopAsp
+Now listening on: http://127.0.0.1:16867
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44392/values/checkConnectionToDB  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:17627/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 25.1716ms 200 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "CheckConnectionToDB", controller = "Values"}. Executing controller action with signature System.String CheckConnectionToDB(System.String) on controller TelegramShopAsp.Controllers.ValuesController (TelegramShopAsp).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 186.8633ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp) in 1054.2183ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1205.6382ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44392/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.4813ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44392/values/startBot  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "StartBot", controller = "Values"}. Executing controller action with signature System.String StartBot(System.String) on controller TelegramShopAsp.Controllers.ValuesController (TelegramShopAsp).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TelegramShopAsp.Controllers.ValuesController.StartBot (TelegramShopAsp) - Validation state: Valid
+...........
+
+Work: a9db53beb2dd448d94b89063d3cb30de850d67b8f1fc4e358b104a23b2b9b934
+
+..
+
+Work: 467fb4f0c7ee4717b41eb03a928606c20                               
+
+Object reference not set to an instance of an object.
+{"ok":true,"result":[{"update_id":80611972,
+"callback_query":{"id":"4478065447647043990","from":{"id":1042630860,"is
+
+":false,"first_name":"Work","language_code":"uk"},"message":{"message_id":5765,"from":{"id":1120463837,"is_bot":true,"first_name":"MarketTelebot","username":"MarketTele_bot"},"chat":{"id":1042630860,"first_name":"Work","type":"private"},"date":1590443124,"edit_date":1591118557,"text":"\ud83c\udfe0 \u0413\u043b\u0430\u0432\u043d\u043e\u0435 \u043c\u0435\u043d\u044e\n\n\u041d\u0430\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430: \u041c\u0430\u0433\u0430\u0437\u0438\u043d \u0445\u043e\u0440\u043e\u0448\u0438\u0445 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\n\u0422\u043e\u0432\u0430\u0440\u043e\u0432: 1 \u0448\u0442.\n\n\u2757 \u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435! \u0420\u0430\u0431\u043e\u0442\u0430 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430 \u043f\u0440\u0438\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0430. \u041f\u043e\u043a\u0443\u043f\u0430\u0442\u0435\u043b\u0438 \u043d\u0435 \u0432\u0438\u0434\u044f\u0442 \u0432\u0430\u0448 \u0442\u043e\u0432\u0430\u0440.","entities":[{"offset":3,"length":12,"type":"bold"}],"reply_markup":{"inline_keyboard":[[{"text":"\u2757 \u0412\u043e\u0437\u043e\u0431\u043d\u043e\u0432\u0438\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u0443 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430","callback_data":"a9db53beb2dd448d94b89063d3cb30de850d67b8f1fc4e358b104a23b2b9b934"}],[{"text":"\u270f \u0420\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044e \u043e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438","callback_data":"a9db53beb2dd448d94b89063d3cb30deef27e5a8cc5246af8ad6e33e74489399"}],[{"text":"\u041f\u0435\u0440\u0435\u0439\u0442\u0438 \u043a \u043d\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044e \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430 \u0442\u043e\u0432\u0430\u0440\u0430\u043c\u0438","callback_data":"a9db53beb2dd448d94b89063d3cb30de0b07454e3cc24b589aa0f943843090dd"}],[{"text":"\ud83d\udc40 \u2b05 \u041a \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0443 \u0442\u043e\u0432\u0430\u0440\u043e\u0432 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430","callback_data":"467fb4f0c7ee4717b41eb03a928606c20                               "}],[{"text":"\u274c \u0423\u0434\u0430\u043b\u0438\u0442\u044c \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044e \u0438\u0437 \u0441\u0438\u0441\u0442\u0435\u043c\u044b","callback_data":"a9db53beb2dd448d94b89063d3cb30defb7e7355c93f4bafaf1f1ab35a703d2c"}],[{"text":"\u0421\u0431\u0440\u043e\u0441 \u0438 \u043f\u0435\u0440\u0435\u0445\u043e\u0434 \u0432 \u043d\u0430\u0447\u0430\u043b\u043e","callback_data":"a9db53beb2dd448d94b89063d3cb30de334ccfefa07549339e31fa1a42bcabc5"}]]}},"chat_instance":"-6785176375236638291","data":"467fb4f0c7ee4717b41eb03a928606c20                               "}}]}
+.
+
+Work: 467fb4f0c7ee4717b41eb03a928606c20                               
+
+Object reference not set to an instance of an object.
+{"ok":true,"result":[{"update_id":80611973,
+"callback_query":{"id":"4478065447831827339","from":{"id":1042630860,"is_bot":false,"first_name":"Work","language_code":"uk"},"message":{"message_id":5765,"from":{"id":1120463837,"is_bot":true,"first_name":"MarketTelebot","username":"MarketTele_bot"},"chat":{"id":1042630860,"first_name":"Work","type":"private"},"date":1590443124,"edit_date":1591118557,"text":"\ud83c\udfe0 \u0413\u043b\u0430\u0432\u043d\u043e\u0435 \u043c\u0435\u043d\u044e\n\n\u041d\u0430\u0438\u043c\u0435\u043d\u043e\u0432\u0430\u043d\u0438\u0435 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430: \u041c\u0430\u0433\u0430\u0437\u0438\u043d \u0445\u043e\u0440\u043e\u0448\u0438\u0445 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u043e\u0432\n\u0422\u043e\u0432\u0430\u0440\u043e\u0432: 1 \u0448\u0442.\n\n\u2757 \u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435! \u0420\u0430\u0431\u043e\u0442\u0430 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430 \u043f\u0440\u0438\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0430. \u041f\u043e\u043a\u0443\u043f\u0430\u0442\u0435\u043b\u0438 \u043d\u0435 \u0432\u0438\u0434\u044f\u0442 \u0432\u0430\u0448 \u0442\u043e\u0432\u0430\u0440.","entities":[{"offset":3,"length":12,"type":"bold"}],"reply_markup":{"inline_keyboard":[[{"text":"\u2757 \u0412\u043e\u0437\u043e\u0431\u043d\u043e\u0432\u0438\u0442\u044c \u0440\u0430\u0431\u043e\u0442\u0443 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430","callback_data":"a9db53beb2dd448d94b89063d3cb30de850d67b8f1fc4e358b104a23b2b9b934"}],[{"text":"\u270f \u0420\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044e \u043e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438","callback_data":"a9db53beb2dd448d94b89063d3cb30deef27e5a8cc5246af8ad6e33e74489399"}],[{"text":"\u041f\u0435\u0440\u0435\u0439\u0442\u0438 \u043a \u043d\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u0438\u044e \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430 \u0442\u043e\u0432\u0430\u0440\u0430\u043c\u0438","callback_data":"a9db53beb2dd448d94b89063d3cb30de0b07454e3cc24b589aa0f943843090dd"}],[{"text":"\ud83d\udc40 \u2b05 \u041a \u043f\u0440\u043e\u0441\u043c\u043e\u0442\u0440\u0443 \u0442\u043e\u0432\u0430\u0440\u043e\u0432 \u043c\u0430\u0433\u0430\u0437\u0438\u043d\u0430","callback_data":"467fb4f0c7ee4717b41eb03a928606c20                               "}],[{"text":"\u274c \u0423\u0434\u0430\u043b\u0438\u0442\u044c \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044e \u0438\u0437 \u0441\u0438\u0441\u0442\u0435\u043c\u044b","callback_data":"a9db53beb2dd448d94b89063d3cb30defb7e7355c93f4bafaf1f1ab35a703d2c"}],[{"text":"\u0421\u0431\u0440\u043e\u0441 \u0438 \u043f\u0435\u0440\u0435\u0445\u043e\u0434 \u0432 \u043d\u0430\u0447\u0430\u043b\u043e","callback_data":"a9db53beb2dd448d94b89063d3cb30de334ccfefa07549339e31fa1a42bcabc5"}]]}},"chat_instance":"-6785176375236638291","data":"467fb4f0c7ee4717b41eb03a928606c20                               "}}]}
+
+
+Work: 467fb4f0c7ee4717b41eb03a928606c20                               
+

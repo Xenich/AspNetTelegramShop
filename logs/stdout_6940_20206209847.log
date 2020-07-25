@@ -1,0 +1,76 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\Orfeus\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Projects\GoogleDrive\Programming\C#\Telegram\ShopAsp\TelegramShopAsp
+Now listening on: http://127.0.0.1:47120
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:17627/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44392/values/checkConnectionToDB  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 22.5831ms 200 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "CheckConnectionToDB", controller = "Values"}. Executing controller action with signature System.String CheckConnectionToDB(System.String) on controller TelegramShopAsp.Controllers.ValuesController (TelegramShopAsp).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 758.3908ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.String'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TelegramShopAsp.Controllers.ValuesController.CheckConnectionToDB (TelegramShopAsp) in 781.7141ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 920.0484ms 200 text/plain; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:44392/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2.0428ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:17627/values/getUpdate application/json 19
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 10.7686ms 307 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44392/values/getUpdate application/json 19
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HM0KV66LO4UH", Request id "0HM0KV66LO4UH:00000002": the application completed without reading the entire request body.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetUpdate", controller = "Values"}. Executing controller action with signature Void GetUpdate(TelegramShopAsp.Responses.Result) on controller TelegramShopAsp.Controllers.ValuesController (TelegramShopAsp).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TelegramShopAsp.Controllers.ValuesController.GetUpdate (TelegramShopAsp) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TelegramShopAsp.Controllers.ValuesController.GetUpdate (TelegramShopAsp), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 29115.7559ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TelegramShopAsp.Controllers.ValuesController.GetUpdate (TelegramShopAsp) in 29308.0305ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 29402.0264ms 200 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:17627/values/getUpdate application/json 19
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.5799ms 307 
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HM0KV66LO4UH", Request id "0HM0KV66LO4UH:00000003": the application completed without reading the entire request body.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44392/values/getUpdate application/json 19
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetUpdate", controller = "Values"}. Executing controller action with signature Void GetUpdate(TelegramShopAsp.Responses.Result) on controller TelegramShopAsp.Controllers.ValuesController (TelegramShopAsp).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TelegramShopAsp.Controllers.ValuesController.GetUpdate (TelegramShopAsp) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method TelegramShopAsp.Controllers.ValuesController.GetUpdate (TelegramShopAsp), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 61191.2338ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action TelegramShopAsp.Controllers.ValuesController.GetUpdate (TelegramShopAsp) in 61194.7697ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 61199.4236ms 200 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:17627/values/getUpdate application/json 19
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.4387ms 307 
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HM0KV66LO4UG", Request id "0HM0KV66LO4UG:00000005": the application completed without reading the entire request body.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:44392/values/getUpdate application/json 19
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[3]
+      Route matched with {action = "GetUpdate", controller = "Values"}. Executing controller action with signature Void GetUpdate(TelegramShopAsp.Responses.Result) on controller TelegramShopAsp.Controllers.ValuesController (TelegramShopAsp).
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method TelegramShopAsp.Controllers.ValuesController.GetUpdate (TelegramShopAsp) - Validation state: Valid

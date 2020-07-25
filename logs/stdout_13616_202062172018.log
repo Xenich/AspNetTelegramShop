@@ -1,0 +1,4 @@
+
+Unhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.
+   at TelegramShopAsp.Behavior.Init() in D:\Projects\GoogleDrive\Programming\C#\Telegram\ShopAsp\TelegramShopAsp\Behaviors\Behavior.cs:line 32
+   at TelegramShopAsp.Program.Main(String[] args) in D:\Projects\GoogleDrive\Programming\C#\Telegram\ShopAsp\TelegramShopAsp\Program.cs:line 17

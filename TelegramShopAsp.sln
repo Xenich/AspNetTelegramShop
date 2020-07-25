@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelegramShopAsp", "TelegramShopAsp.csproj", "{86CBF89A-3F70-42C4-8F32-1F201A41554B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86CBF89A-3F70-42C4-8F32-1F201A41554B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86CBF89A-3F70-42C4-8F32-1F201A41554B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86CBF89A-3F70-42C4-8F32-1F201A41554B}.Debug|x64.ActiveCfg = Debug|x64
+		{86CBF89A-3F70-42C4-8F32-1F201A41554B}.Debug|x64.Build.0 = Debug|x64
+		{86CBF89A-3F70-42C4-8F32-1F201A41554B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86CBF89A-3F70-42C4-8F32-1F201A41554B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86CBF89A-3F70-42C4-8F32-1F201A41554B}.Release|x64.ActiveCfg = Release|x64
+		{86CBF89A-3F70-42C4-8F32-1F201A41554B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {305A2AA2-FF57-4DAB-8C2C-4BAE2D331C92}
+	EndGlobalSection
+EndGlobal
